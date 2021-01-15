@@ -22,7 +22,7 @@ show_help(char *progname) {
   printf( "%s  USAGE OPTIONS:  ./%s MPI_FUNC_NAME  size  num_iterations \n", progname, progname );
   printf( "  MPI_FUNC_NAME can be: )\n");
   printf( "                        blocking MPI calls\n");
-  printf( "                        SEND       work only for np=2\n");
+  printf( "                        SEND       works only for np=2\n");
   printf( "                        ALL2ALLV \n");
   printf( "                        MAGMA_A2AV \n");
   printf( "                        BCAST \n");
