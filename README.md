@@ -67,7 +67,15 @@ Examples with SpectrumMPI:
 We show a benchmark on P2P communication using 2 ranks, 1GPU/1rank, in 2 arbitrary Summit nodes.
 In the Figure below, the left part shows the interconnection peak throughput in Summit (25GB/s), on the right we show how the communication time behaves when increasing the data volume.
 
-<img src="https://bitbucket.org/aayala32/logos/raw/24085cb340e15c118eeb3e10ac17364ec9a5e40e/summit_network.png" width="2000" height="400">
+In practice, user can expect to get around 22.7 GB/s; i.e., 91% of theoretical peak. To estimate the exchange time for binary communication, you can use regression to derive the following:
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+$$T_{P2P} (\textnormal{ms}) = \frac{M }{22.675} + 1.089,$$)
+
+where *M* is in MB.
+
+<img src="https://bitbucket.org/aayala32/logos/raw/8c0be3ca530e28fdaf33466b2e7dd2ec726e68db/summit_network.png" width="800" height="210">
 
 
 
