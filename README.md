@@ -7,7 +7,6 @@
 We provide benchmark of MPI routines on CPUs and GPUs, currently we support the following types of exchange:
 
 
-
 Point-to-Point | Collective
 --- | --- 
  Send  | Alltoallv 
@@ -16,7 +15,6 @@ Isend | Bcast
 IRecv | Gather 
 BacktoBack | Scatterv  
 Bidirectional | AllGather 
-- | AllReduce 
 
 ## Compilation
 
