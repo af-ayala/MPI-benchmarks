@@ -1,4 +1,3 @@
-![]()
 <img src="https://bitbucket.org/aayala32/logos/raw/bca97ce280291cbb051d8661990a8ba031e462f8/network.png" width="1100" height="250">
 
 
@@ -70,10 +69,10 @@ In the Figure below, the left part shows the interconnection peak throughput in 
 In practice, user can expect to get around 22.7 GB/s; i.e., 91% of theoretical peak. To estimate the exchange time for binary communication, you can use regression to derive the following:
 
 
-<script type="text/javascript" src=https://bitbucket.org/aayala32/logos/raw/0b95cdc8ceb4f722dcf170c75a00cd1e5f31c459/summit_network.png"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 $$T_{P2P} (\textnormal{ms}) = \frac{M}{22.675} + 1.089,$$)
 
-where *M* is in MB.
+where $M$ is in MB.
 
 
 
