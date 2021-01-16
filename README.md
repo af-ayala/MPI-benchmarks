@@ -68,9 +68,7 @@ In the Figure below, the left part shows the interconnection peak throughput in 
 
 In practice, user can expect to get around 22.7 GB/s; i.e., 91% of theoretical peak. To estimate the exchange time for binary communication, you can use regression to derive the following:
 
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$T_{P2P} (\textnormal{ms}) = \frac{M}{22.675} + 1.089,$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=T_{P2P}&space;(\textnormal{ms})&space;=&space;\frac{M}{22.675}&space;&plus;&space;1.089," target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{P2P}&space;(\textnormal{ms})&space;=&space;\frac{M}{22.675}&space;&plus;&space;1.089," title="T_{P2P} (\textnormal{ms}) = \frac{M}{22.675} + 1.089," /></a>
 
 where $M$ is in MB.
 
