@@ -70,6 +70,7 @@ In practice, user can expect to get around 22.7 GB/s; i.e., 91% of theoretical p
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 $$T_{P2P} (\textnormal{ms}) = \frac{M}{22.675} + 1.089,$$)
 
 where $M$ is in MB.
