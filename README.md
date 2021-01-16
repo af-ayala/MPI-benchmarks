@@ -6,12 +6,10 @@
 
 We provide benchmark of MPI routines on CPUs and GPUs, currently we support the following types of exchange:
 
-|  R |  Python |    Matlab |
-| --------- |:---|:---------|:-----|
-| library(tidyverse) |import numpy as np|
+
 
 Point-to-Point | Collective
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+--- | --- 
  Send  | Alltoallv 
 Recv| Gatherv 
 Isend | Bcast 
